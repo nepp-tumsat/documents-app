@@ -1,3 +1,7 @@
+
+
+
+/* publicフォルダへの参照は/でok */
 .App {
   text-align: center;
 }
@@ -14,7 +18,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url("/bg.jpg");
+  background-size: 100% auto;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
