@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
-import dct from './document.png';
+import logo from '../img/logo.svg';
+import dct from '../img/document.png';
 import './App.css';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
         <div className="App-main-contents">
 
         {/*  <img src={logo} className="App-logo" alt="logo" />   */}
-          <h1>document-app</h1>
+          <h1 className="App-main-contens-title">document-app</h1>
           <img src={dct} className="App-dct" alt="dct" />
 
           <p>

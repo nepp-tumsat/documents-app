@@ -20,6 +20,7 @@
 .App-header {
   background-image: url("/bg.jpg");
   background-size: 100% auto;
+  background-attachment: fixed;
 /*  background-repeat: no-repeat;*/
   min-height: 100vh;
   display: flex;
@@ -32,7 +33,12 @@
 }
 
 .App-link {
-  color: #61dafb;
+  background-color: peru;
+/*  color: #61dafb;*/
+  display: block;
+  text-decoration: none;
+  margin: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
 }
 
 .App-main-contents{
@@ -50,6 +56,12 @@
   }
 }
 
+
+.App-main-contens-title{
+  background-color: saddlebrown;
+  border-radius: 10px 10px 10px 10px;
+  padding: 10px 0px 10px 0px;
+}
 .img{
   display: block;
 }
